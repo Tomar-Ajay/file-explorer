@@ -1,0 +1,159 @@
+// @import "styles/variables";
+
+.container {
+    display: flex;
+    height: 900px;
+    background: #FFFFFF;
+}
+
+.leftDiv {
+    width: 50%;
+    // background-color: green;
+}
+.rightDiv {
+    // width: 50%;
+    flex-grow: 1;
+    // background-color: blue;
+}
+.logo {
+    height: 29.238862991333008px;
+    width: 120px;
+    margin-left: 60px;
+    margin-top: 28px;
+    border-radius: 0px;
+}
+.rectangle {
+    width: 717px;
+    // left: 717px;
+    margin-top: 88px;
+    border-radius: 0px;
+}
+.login {
+    position: relative;
+    width: 498px;
+    height: 404px;
+    left: 22%;
+    right: 22%;
+    // left: 836px;
+    top: 25%;
+
+    border: 1px solid #DFE0E0 !important;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.innerLogin {
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 278px;
+    left: 4%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    left: 40px;
+    top: 4%;
+}
+.pinHeading {
+    position: relative;
+    width: 189px;
+    height: 26px;
+    // left: 885px;
+    // top: 355px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+.save {
+    // position: static;
+    // width: 105px;
+    // height: 28px;
+    // // left: 147.5px;
+    // // top: 8px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    // margin: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    // padding: 8px 16px;
+
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    // left: 885px;
+    // top: 589px;
+
+    background: #142683;
+    border-radius: 5px;
+}
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 62px 12px 16px;
+
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    // left: 885px;
+    margin: 16px 0;
+
+    border: 1px solid #EBF0F5;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #9EAAB7;
+}
+.againInner {
+    position: relative;
+    // width: 400px;
+    height: 174px;
+    // left: 885px;
+    // top: 355px;
+}
+.savetext {
+    position: static;
+    width: 105px;
+    height: 28px;
+    left: 147.5px;
+    top: 8px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
